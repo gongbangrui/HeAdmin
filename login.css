@@ -1,0 +1,143 @@
+body {
+    font-family: roboto,sans-serif;
+    text-align: center;
+    background: #151617;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.typecho-login-wrap{
+    max-width: 920px;
+    width: 70%;
+}
+
+.typecho-login {
+    color: #fff;
+    display: inline-block;
+    padding: 2rem;
+}
+.typecho-login a{
+color: #fff;
+}
+.primary {
+    color: #ffffff;
+   background-color: #2c63ff;
+    border-color: #2c63ff;
+    }
+.primary:hover {
+    background-color: #1850ee;/*按钮hover颜色重写*/
+}
+.typecho-login .more-link {
+    margin-top: 0;
+    color: #ffffff;
+}
+.typecho-login h1 {
+        margin: 1rem 0 2rem;
+    float: left;
+    font-weight: 400;
+}
+input[type=text], input[type=password], input[type=email], textarea{
+    /*background: rgba(66, 13, 61, 0.69);*/
+    color: #000;
+    border-color: transparent;
+    outline: none;
+}
+.i-logo, .i-logo-s {
+width: 228px;
+height: 36px;
+opacity: 1;
+}
+.i-logo:hover, .i-logo-s:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+.hello {
+    display: flex;
+    margin-top: 20%;
+    height: 50%;
+    max-height: 500px;
+    
+}
+.lbox {
+    width: 70%;
+    background: url(./img/bg.jpg) center center no-repeat;
+    background-size:cover ;
+}  
+.rbox {
+    background-color: #1D1F20;
+    text-align: center;
+
+}
+#typecho-login h1 a {
+    display: none;
+} 
+.footer{
+    display: block;
+    bottom: 1rem;
+    margin-top: -50px;
+}
+.cop {
+   text-align: center!important;
+    bottom: 1rem;
+    display: inline-block;
+} 
+@media (max-width:992px) {
+    .lbox {
+        display: none;
+    }
+    .hello {
+        display: block;
+        margin-top: 0;
+    }
+    .typecho-login {
+        width: 70%;
+}
+    .typecho-login-wrap{
+        width: 90%;
+    }
+    .footer{
+    display: block;
+    margin-top: 100px;
+    bottom: 1rem;
+}
+    .mbox{
+        width: 100%;
+        height: 40%;
+        display: block;
+        background: url(./img/bg.jpg) center center no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+    .rbox{
+        display: block;
+        border-radius: 5px;
+        margin-top: -5rem;
+    }
+    .typecho-login-wrap{
+        height: auto;
+        
+    }
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
